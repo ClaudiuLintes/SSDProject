@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="447ebb11-53fe-4f0b-ba5c-00fd987bab1f"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="2257c5ce-1bd9-4854-ba17-b2592ae97650"  >
+</g>
+<g transform="matrix(1 0 0 1 540 584.57)" id="235f099d-7b73-477e-96b2-13d0f61b552e"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(212,212,212); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-212.25, -221)" d="M 400.5 201.5 L 126 246.5 C 100.5 269 127.504 288.5 127.504 288.5 L 396 290 L 396 327.5 L 100.5 324.5 C 88.5 317 79.508 293 76.5 272 C 73.5 251 96 228.5 96 228.5 L 49.508 53 L 24 53 L 18 20 L 82.504 20 L 99 74 L 406.5 72.5 L 400.5 201.5 z M 153 341 C 175.367 341 193.5 359.129 193.5 381.5 C 193.5 403.867 175.367 422 153 422 C 130.629 422 112.50399999999999 403.867 112.50399999999999 381.5 C 112.504 359.129 130.629 341 153 341 z M 351 341 C 373.375 341 391.5 359.129 391.5 381.5 C 391.5 403.867 373.375 422 351 422 C 328.637 422 310.5 403.867 310.5 381.5 C 310.5 359.129 328.637 341 351 341 z" stroke-linecap="round" />
+</g>
+</svg>
