@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import '../../css/products/ExternalSSDs.css';
+import '../../css/products/SSDAccessories.css';
 import FilterMenu from './FilterMenu';
 import ProductCatalog from './ProductCatalog';
-import sampleProducts from './sampleProducts/ssdExternalProducts.jsx';
+import sampleProducts from './sampleProducts/ssdAccessoriesProducts.jsx'
 
-const ExternalSSDs = () => {
+const SSDAccessories = () => {
     const [filteredProducts, setFilteredProducts] = useState(sampleProducts);
 
     const handleFilterChange = (filters) => {
@@ -45,10 +45,10 @@ const ExternalSSDs = () => {
                 onFilterChange={handleFilterChange}
             />
             <div className="product-list">
-                <ProductCatalog title="External SSDs" products={filteredProducts} category="external-ssds" />
+                <ProductCatalog title="SSD Accessories" products={filteredProducts} category="ssd-accessories" />
             </div>
         </div>
     );
 };
 
-export default ExternalSSDs;
+export default SSDAccessories;

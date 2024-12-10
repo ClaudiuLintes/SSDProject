@@ -1,14 +1,29 @@
-import React, { useState } from 'react';
-import '../../css/products/ExternalSSDs.css';
-import FilterMenu from './FilterMenu';
-import ProductCatalog from './ProductCatalog';
-import sampleProducts from './sampleProducts/ssdExternalProducts.jsx';
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import '../css/SearchPage.css';
+import FilterMenu from './products/FilterMenu';
+import ProductCatalog from './products/ProductCatalog';
+import sampleProducts from './products/sampleProducts/ssdSpecialProducts';
 
-const ExternalSSDs = () => {
-    const [filteredProducts, setFilteredProducts] = useState(sampleProducts);
+const useQuery = () => {
+    return new URLSearchParams(useLocation().search);
+};
+
+const SearchPage = () => {
+    const query = useQuery().get("query") || "";
+    const [filteredProducts, setFilteredProducts] = useState([]);
+
+    useEffect(() => {
+        const filtered = sampleProducts.filter(product =>
+            product.title.toLowerCase().includes(query.toLowerCase())
+        );
+        setFilteredProducts(filtered);
+    }, [query]);
 
     const handleFilterChange = (filters) => {
-        let filtered = sampleProducts;
+        let filtered = sampleProducts.filter(product =>
+            product.title.toLowerCase().includes(query.toLowerCase())
+        );
 
         if (filters.inStock) {
             filtered = filtered.filter(product => product.inStock);
@@ -45,10 +60,10 @@ const ExternalSSDs = () => {
                 onFilterChange={handleFilterChange}
             />
             <div className="product-list">
-                <ProductCatalog title="External SSDs" products={filteredProducts} category="external-ssds" />
+                <ProductCatalog title="Search Results" products={filteredProducts} category="search" />
             </div>
         </div>
     );
 };
 
-export default ExternalSSDs;
+export default SearchPage;

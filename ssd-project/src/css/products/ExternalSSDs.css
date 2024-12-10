@@ -1,0 +1,8 @@
+.product-page {
+    display: flex;
+}
+
+.product-catalog {
+    flex-grow: 1;
+    padding: 20px;
+}
