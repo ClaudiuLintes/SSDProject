@@ -16,9 +16,9 @@ const SecondaryMenu = () => {
                     <Link to="#">Products</Link>
                     {isDropdownOpen && (
                         <ul className="dropdown-menu">
-                            <li><Link to="/internal-ssds">Interenal SSDs</Link></li>
+                            <li><Link to="/internal-ssds">Internal SSDs</Link></li>
                             <li><Link to="/external-ssds">External SSDs</Link></li>
-                            <li><Link to="/ssd-accesories">SSD Accesories</Link></li>
+                            <li><Link to="/ssd-accessories">SSD Accesories</Link></li>
                             <li><Link to="/ssd-software">Software Products</Link></li>
                         </ul>
                     )}
