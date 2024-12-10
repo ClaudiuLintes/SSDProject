@@ -50,7 +50,7 @@
 }
 
 .SecondaryMenu-navbar-menu a:hover {
-    background-color: #d0641b;
+    background-color: #e64a19;
     /* Darker shade of the original color */
 }
 
@@ -73,5 +73,5 @@
 }
 
 .dropdown-menu a:hover {
-    background-color: #d0641b;
+    background-color: #e64a19;
 }

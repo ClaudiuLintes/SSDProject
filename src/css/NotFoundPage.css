@@ -1,0 +1,46 @@
+/* NotFoundPage.css */
+
+.NotFoundPage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.NotFoundPage-card {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.NotFoundPage-card h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff5722;
+}
+
+.NotFoundPage-card p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.NotFoundPage-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.NotFoundPage-button:hover {
+    background-color: #e64a19;
+}
