@@ -1,0 +1,97 @@
+/* OrderInfo.css */
+
+.orderInfo-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orderInfo-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.orderInfo-item {
+    margin-bottom: 10px;
+}
+
+.orderInfo-item h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.orderInfo-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.orderInfo-products {
+    margin-bottom: 20px;
+}
+
+.orderInfo-shipping {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderInfo-shipping h3 {
+    color: #333;
+}
+
+.orderInfo-shipping p {
+    font-size: 18px;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.orderInfo-discount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderInfo-discount h3 {
+    color: #333;
+}
+
+.orderInfo-discount p {
+    font-size: 18px;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.orderInfo-cost {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.orderInfo-cost h3 {
+    color: #333;
+}
+
+.orderInfo-cost p {
+    font-size: 18px;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.orderInfo-total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.orderInfo-total h3 {
+    color: #333;
+}
+
+.orderInfo-total p {
+    font-size: 18px;
+    color: #ff5722;
+    font-weight: bold;
+}

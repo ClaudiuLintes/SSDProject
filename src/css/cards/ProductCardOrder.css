@@ -1,0 +1,50 @@
+/* ProductCardOrder.css */
+
+.ProductCardOrder-product-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.ProductCardOrder-product-image-link {
+    display: block;
+}
+
+.ProductCardOrder-product-image {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.ProductCardOrder-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.ProductCardOrder-product-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ProductCardOrder-price-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductCardOrder-product-price {
+    font-size: 20px;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.ProductCardOrder-product-quantity {
+    font-size: 16px;
+    color: #666;
+}

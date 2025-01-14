@@ -1,0 +1,12 @@
+/* index.css */
+
+body {
+  font-family: 'YourDesiredFont', sans-serif;
+  font-size: 16px; /* Set the base font size */
+  line-height: 1.6; /* Set the base line height */
+  color: #333; /* Set the base text color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}

@@ -1,0 +1,43 @@
+/* OrderFilterMenu.css */
+
+.orderFilterMenu-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orderFilterMenu-form-group {
+    margin-bottom: 15px;
+}
+
+.orderFilterMenu-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff5722;
+}
+
+.orderFilterMenu-form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.orderFilterMenu-submit-button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.orderFilterMenu-submit-button:hover {
+    background-color: #e64a19;
+}

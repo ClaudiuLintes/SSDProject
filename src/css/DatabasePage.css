@@ -1,0 +1,51 @@
+/* DatabasePage.css */
+
+body {
+    background-color: #f9f9f9;
+}
+
+.databasePage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+
+.databasePage-menu {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.databasePage-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.databasePage-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.databasePage-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.databasePage-button:hover {
+    background-color: #e64a19;
+}

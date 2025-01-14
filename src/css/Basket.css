@@ -1,0 +1,72 @@
+/* Basket.css */
+body{
+    background-color: #f9f9f9;
+}
+
+.Basket-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+
+.Basket-product-list {
+    flex: 2; /* Larger part for the product list */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.Basket-product-list h1{
+    margin-bottom: 20px;
+    color: #ff5722;
+}
+.Basket-summary {
+    flex: 1; /* Smaller part for the summary */
+    background-color: white;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.Basket-empty {
+    margin:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;   
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Basket-empty h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Basket-empty .Basket-home-link {
+    text-decoration: none;
+}
+
+.Basket-empty button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Basket-empty button:hover {
+    background-color: #e64a19;
+}

@@ -1,0 +1,77 @@
+/* RegisterPage.css */
+
+.registerPage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.registerPage-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.registerPage-card h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registerPage-form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.registerPage-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.registerPage-form-group input {
+    width: 95.5%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.registerPage-registerPage-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registerPage-button:hover {
+    background-color: #e64a19;
+}
+
+.registerPage-login-prompt {
+    margin-top: 20px;
+}
+
+.registerPage-container a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.registerPage-container a:hover {
+    color: #e64a19;
+    text-decoration: underline;
+}
+
+.registerPage-error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}

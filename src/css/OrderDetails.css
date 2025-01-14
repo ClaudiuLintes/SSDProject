@@ -1,0 +1,32 @@
+/* OrderDetails.css */
+
+body {
+    background-color: #f9f9f9;
+}
+
+.OrderDetails-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+
+.OrderDetails-form {
+    flex: 2; /* Larger part for the order form */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.OrderDetails-summary {
+    flex: 1; /* Smaller part for the summary */
+    background-color: white;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}

@@ -1,0 +1,109 @@
+/* DatabaseOrdersPage.css */
+
+.databaseOrdersPage-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.databaseOrderPage-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.databaseOrderPage-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.databaseOrderPage-button:hover {
+    background-color: #e64a19;
+}
+
+.databaseOrdersPage-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.databaseOrdersPage-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.databaseOrdersPage-table th,
+.databaseOrdersPage-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    width: 16.6%;
+    /* Fixed width for each column */
+}
+
+.databaseOrdersPage-table th {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+.databaseOrdersPage-table th:hover {
+    background-color: #ddd;
+}
+
+.databaseOrdersPage-table a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.databaseOrdersPage-table a:hover {
+    color: #e64a19;
+}
+
+.order-status-canceled {
+    color: red;
+}
+
+.order-status-ongoing {
+    color: orange;
+}
+
+.order-status-delivered {
+    color: green;
+}
+
+.order-status-unknown {
+    color: gray;
+}
+
+.databaseOrdersPage-table button {
+    margin: 0 5px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 50px;
+    background-color: #353535;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.databaseOrdersPage-table button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.databaseOrdersPage-table button:hover:not(:disabled) {
+    background-color: #252525;
+}

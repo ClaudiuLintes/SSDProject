@@ -1,0 +1,27 @@
+/* ProductCatalogHome.css */
+
+.ProductCatalogHome-product-catalog {
+    padding: 0px;
+    max-width: 1300px;
+    margin-left: 26px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Center text alignment for heading */
+}
+
+.ProductCatalogHome-heading {
+    color: #ff5722;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
+    /* Increase heading size */
+}
+
+.ProductCatalogHome-product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}

@@ -1,0 +1,60 @@
+/* OrderList.css */
+
+.orderList-container {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.orderList-container h1 {
+    margin-bottom: 20px;
+    color: #ff5722;
+}
+
+.orderList-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orderList-table th, .orderList-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    width: 16.6%; /* Fixed width for each column */
+}
+
+.orderList-table th {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+.orderList-table th:hover {
+    background-color: #ddd;
+}
+
+.orderList-table a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.orderList-table a:hover {
+    color: #e64a19;
+}
+
+.order-status-canceled {
+    color: red;
+}
+
+.order-status-ongoing {
+    color: orange;
+}
+
+.order-status-delivered {
+    color: green;
+}
+
+.order-status-unknown {
+    color: gray;
+}

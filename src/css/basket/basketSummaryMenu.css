@@ -1,0 +1,87 @@
+/* BasketSummaryMenu.css */
+
+.BasketSummaryMenu {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.BasketSummaryMenu h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.BasketSummaryMenu p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.free-shipping {
+    color: green;
+}
+
+.discounted-amount {
+    color: red
+}
+
+.current-code {
+    background-color: #C5C5C5;
+    border: 1px solid #ddd;
+    border-radius: px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #252525;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.current-code:hover{
+    background-color: #A5A5A5;
+}
+
+.discount-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.discount-code-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 200px;
+}
+
+.discount-code-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.discount-code-container button:hover {
+    background-color: #e64a19;
+}
+
+.checkout-button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}

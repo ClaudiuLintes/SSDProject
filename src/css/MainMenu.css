@@ -1,0 +1,77 @@
+/* Navbar.css */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100;
+}
+
+.MainMenu-navbar {
+    background-color: #252525;
+    padding: 0px;
+}
+
+.MainMenu-navbar-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.MainMenu-navbar-menu li {
+    margin: 0 10px;
+}
+
+.MainMenu-navbar-menu a {
+    display: inline-block;
+    /* Ensures the link behaves like a button */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    /* Adds padding around the text */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+    border-radius: 5px;
+    /* Optional: adds rounded corners */
+}
+
+.MainMenu-navbar-logo {
+    height: 100px;
+}
+
+.MainMenu-searchbar {
+    padding: 13px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    width: 800px;
+    /* Adjust width as needed */
+    transition: box-shadow 0.3s ease;
+}
+
+.MainMenu-searchbar:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.MainMenu-spacer {
+    flex-grow: 0;
+}
+
+.MainMenu-navbar-basket {
+    height: 100px;
+}
+
+.MainMenu-navbar-account {
+    height: 45px;
+    margin-top: 8px;
+}
+
+.MainMenu-navbar-database {
+    height: 44px;
+    margin-top: 5px;
+    margin-left: 20px;
+}

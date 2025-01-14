@@ -1,0 +1,99 @@
+/* DatabaseProductEditor.css */
+
+.databaseProductEditor-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.databaseProductEditor-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.databaseProductEditor-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.databaseProductEditor-addbrand-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.databaseProductEditor-button:hover {
+    background-color: #e64a19;
+}
+
+.databaseProductEditor-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.databaseProductEditor-form-group {
+    margin-bottom: 20px;
+}
+
+.databaseProductEditor-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.databaseProductEditor-form-group input {
+    width: 98.4%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.databaseProductEditor-form-group select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.databaseProductEditor-form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.databaseProductEditor-form-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.databaseProductEditor-form-actions button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.databaseProductEditor-form-actions button:hover {
+    background-color: #e64a19;
+}

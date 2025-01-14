@@ -1,0 +1,82 @@
+/* ProductMenu.css */
+
+.Product-Menu-menu {
+    width: 400px;
+    max-width: 400px;
+    max-height: 550px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Product-Menu-old-price {
+    font-size: 1.2em;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.Product-Menu-price {
+    font-size: 2.5em;
+    color: #ff5722;
+    margin: 10px 0;
+}
+
+.Product-Menu-stock {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.Product-Menu-stock.in-stock {
+    color: green;
+}
+
+.Product-Menu-stock.out-of-stock {
+    color: red;
+}
+
+.Product-Menu-add-to-cart-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.Product-Menu-add-to-cart-button:hover {
+    background-color: #e64a19;
+}
+
+.Product-Menu-sibling-buttons {
+    margin-top: 20px;
+}
+
+.Product-Menu-add-to-cart-button.disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.Product-Menu-add-to-cart-button.disabled:hover {
+    background-color: #aaaaaa;
+}
+
+.Product-Menu-sibling-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Product-Menu-sibling-button:hover {
+    background-color: #ccc;
+}

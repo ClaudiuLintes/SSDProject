@@ -1,0 +1,97 @@
+/* DatabaseProductsPage.css */
+
+.databaseProductsPage-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.databaseProductsPage-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.databaseProductsPage-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.databaseProductsPage-current-price {
+    color: #ff5722;
+}
+
+.databaseProductsPage-current-price:hover {
+    color: #e64a19;
+    text-decoration: underline;
+}
+
+.databaseProductsPage-old-price {
+    color: gray
+}
+
+.databaseProductsPage-old-price:hover {
+    color: #252525;
+    text-decoration: underline;
+}
+
+.databaseProductsPage-button:hover {
+    background-color: #e64a19;
+}
+
+.databaseProductsPage-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.databaseProductsPage-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.databaseProductsPage-table th,
+.databaseProductsPage-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 12.5%;
+    /* Fixed width for each column */
+}
+
+.databaseProductsPage-table th {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+.databaseProductsPage-table th:hover {
+    background-color: #ddd;
+}
+
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.product-stock:hover {
+    text-decoration: underline;
+}
+
+.product-stock.in-stock {
+    color: green;
+}
+
+.product-stock.out-of-stock {
+    color: red;
+}

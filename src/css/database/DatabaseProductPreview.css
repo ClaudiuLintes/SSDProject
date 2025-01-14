@@ -1,0 +1,96 @@
+/* DatabaseProductPreview.css */
+
+.databaseProductPreview-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.databaseProductPreview-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.databaseProductPreview-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.databaseProductPreview-button:hover {
+    background-color: #e64a19;
+}
+
+.databaseProductPreview-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group select {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.product-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-order {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.productCard, .productCardHome, .productCardBasket {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.productCard img, .productCardHome img, .productCardBasket img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.productCardOrder {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.productCardOrder img {
+    max-width: 100%;
+    border-radius: 5px;
+}

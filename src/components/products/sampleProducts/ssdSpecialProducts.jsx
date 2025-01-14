@@ -1,0 +1,33 @@
+const sampleProducts = [
+    { id: '0x050001', groupId: -1, image: 'https://via.placeholder.com/200', title: 'Adata 120GB USB Type A SSD', inStock: true, price: 19.99, oldPrice: 24.99, brand: 'Adata', type: 'USB Type A', size: '120GB', color: 'Black' },
+    { id: '0x050002', groupId: -1, image: 'https://via.placeholder.com/200', title: 'Adata 240GB USB Type C SSD', inStock: false, price: 29.99, oldPrice: 34.99, brand: 'Adata', type: 'USB Type C', size: '240GB', color: 'Silver' },
+    { id: '0x050003', groupId: -1, image: 'https://via.placeholder.com/200', title: 'Kingston 500GB USB Type A SSD', inStock: true, price: 49.99, oldPrice: 59.99, brand: 'Kingston', type: 'USB Type A', size: '500GB', color: 'Red' },
+    { id: '0x050004', groupId: -1, image: 'https://via.placeholder.com/200', title: 'SanDisk 1TB USB Type C SSD', inStock: false, price: 99.99, oldPrice: 119.99, brand: 'SanDisk', type: 'USB Type C', size: '1TB', color: 'Blue' },
+    { id: '0x050005', groupId: -1, image: 'https://via.placeholder.com/200', title: 'WD 2TB USB Type A SSD', inStock: true, price: 149.99, oldPrice: 179.99, brand: 'WD', type: 'USB Type A', size: '2TB', color: 'Green' },
+    { id: '0x050006', groupId: -1, image: 'https://via.placeholder.com/200', title: 'Seagate 120GB USB Type C SSD', inStock: true, price: 19.99, oldPrice: 24.99, brand: 'Seagate', type: 'USB Type C', size: '120GB', color: 'Black' },
+    { id: '0x050007', groupId: -1, image: 'https://via.placeholder.com/200', title: 'Adata 120GB SATA SSD', inStock: true, price: 19.99, oldPrice: 24.99, brand: 'Adata', type: 'SATA', size: '120GB' },
+    { id: '0x050008', groupId: -1, image: 'https://via.placeholder.com/200', title: 'Kingston 240GB SATA SSD', inStock: false, price: 29.99, oldPrice: 34.99, brand: 'Kingston', type: 'SATA', size: '240GB' },
+    { id: '0x050009', groupId: -1, image: 'https://via.placeholder.com/200', title: 'SanDisk 500GB SATA SSD', inStock: true, price: 49.99, oldPrice: 59.99, brand: 'SanDisk', type: 'SATA', size: '500GB' },
+    { id: '0x05000A', groupId: -1, image: 'https://via.placeholder.com/200', title: 'WD 1TB SATA SSD', inStock: false, price: 99.99, oldPrice: 119.99, brand: 'WD', type: 'SATA', size: '1TB' },
+    { id: '0x05000B', groupId: -1, image: 'https://via.placeholder.com/200', title: 'Seagate 2TB SATA SSD', inStock: true, price: 149.99, oldPrice: 179.99, brand: 'Seagate', type: 'SATA', size: '2TB' },
+    { id: '0x05000C', groupId: -1, image: 'https://via.placeholder.com/200', title: 'HyperTech m2 external case SSD', inStock: true, price: 19.99, oldPrice: 24.99, brand: 'HyperTech', type: 'm2 external case', color: 'Black' },
+    { id: '0x05000D', groupId: -1, image: 'https://via.placeholder.com/200', title: 'CyberTech m2 external case SSD', inStock: false, price: 29.99, oldPrice: 34.99, brand: 'CyberTech', type: 'm2 external case', color: 'Silver' },
+    { id: '0x05000E', groupId: -1, image: 'https://via.placeholder.com/200', title: 'NanoTech m2 external case SSD', inStock: true, price: 49.99, oldPrice: 59.99, brand: 'NanoTech', type: 'm2 external case', color: 'Red' },
+    { id: '0x05000F', groupId: -1, image: 'https://via.placeholder.com/200', title: 'QuantumTech m2 external case SSD', inStock: false, price: 99.99, oldPrice: 119.99, brand: 'QuantumTech', type: 'm2 external case', color: 'Blue' },
+    { id: '0x050010', groupId: -1, image: 'https://via.placeholder.com/200', title: 'VertexTech m2 external case SSD', inStock: true, price: 149.99, oldPrice: 179.99, brand: 'VertexTech', type: 'm2 external case', color: 'Green' },
+    { id: '0x050011', groupId: -1, image: 'https://via.placeholder.com/200', title: 'MegaTech m2 external case SSD', inStock: true, price: 19.99, oldPrice: 24.99, brand: 'MegaTech', type: 'm2 external case', color: 'Black' },
+    { id: '0x050012', groupId: -1, image: 'https://via.placeholder.com/200', title: 'AlphaSoft Recovery Enterprise', inStock: true, price: 199.99, oldPrice: 249.99, brand: 'AlphaSoft', type: 'Recovery', use: 'Enterprise Use' },
+    { id: '0x050013', groupId: -1, image: 'https://via.placeholder.com/200', title: 'BetaSoft Recovery Professional', inStock: false, price: 249.99, oldPrice: 299.99, brand: 'BetaSoft', type: 'Recovery', use: 'Professional Use' },
+    { id: '0x050014', groupId: -1, image: 'https://via.placeholder.com/200', title: 'GammaSoft Security Enterprise', inStock: true, price: 149.99, oldPrice: 199.99, brand: 'GammaSoft', type: 'Security', use: 'Enterprise Use' },
+    { id: '0x050015', groupId: -1, image: 'https://via.placeholder.com/200', title: 'DeltaSoft Storage Manager Professional', inStock: false, price: 349.99, oldPrice: 399.99, brand: 'DeltaSoft', type: 'Storage Manager', use: 'Professional Use' },
+    { id: '0x050016', groupId: -1, image: 'https://via.placeholder.com/200', title: 'EpsilonSoft Recovery Enterprise', inStock: true, price: 199.99, oldPrice: 249.99, brand: 'EpsilonSoft', type: 'Recovery', use: 'Enterprise Use' },
+    { id: '0x050017', groupId: -1, image: 'https://via.placeholder.com/200', title: 'GammaSoft Security Professional', inStock: true, price: 399.99, oldPrice: 449.99, brand: 'GammaSoft', type: 'Security', use: 'Professional Use' },
+    { id: '0x050018', groupId: -1, image: 'https://via.placeholder.com/200', title: 'OmegaSoft Storage Manager Enterprise', inStock: false, price: 249.99, oldPrice: 299.99, brand: 'OmegaSoft', type: 'Storage Manager', use: 'Enterprise Use' },
+    { id: '0x050019', groupId: -1, image: 'https://via.placeholder.com/200', title: 'LambdaSoft Recovery Professional', inStock: true, price: 149.99, oldPrice: 199.99, brand: 'LambdaSoft', type: 'Recovery', use: 'Professional Use' },
+    { id: '0x05001A', groupId: -1, image: 'https://via.placeholder.com/200', title: 'AlphaSoft Security Professional', inStock: false, price: 199.99, oldPrice: 249.99, brand: 'AlphaSoft', type: 'Security', use: 'Professional Use' },
+    { id: '0x05001B', groupId: -1, image: 'https://via.placeholder.com/200', title: 'BetaSoft Recovery Enterprise', inStock: true, price: 299.99, oldPrice: 349.99, brand: 'BetaSoft', type: 'Recovery', use: 'Enterprise Use' },
+    { id: '0x05001C', groupId: -1, image: 'https://via.placeholder.com/200', title: 'CyberTech Storage Manager Professional', inStock: true, price: 249.99, oldPrice: 299.99, brand: 'CyberTech', type: 'Storage Manager', use: 'Professional Use' },
+    { id: '0x05001D', groupId: -1, image: 'https://via.placeholder.com/200', title: 'DeltaSoft Security Enterprise', inStock: false, price: 399.99, oldPrice: 449.99, brand: 'DeltaSoft', type: 'Security', use: 'Enterprise Use' }
+];
+
+export default sampleProducts;

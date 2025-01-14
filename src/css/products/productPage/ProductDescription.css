@@ -1,0 +1,16 @@
+/* ProductDescription.css */
+
+.product-description {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.product-description h2 {
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    font-size: 1em;
+    color: #333;
+}

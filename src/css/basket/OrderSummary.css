@@ -1,0 +1,30 @@
+/* OrderSummary.css */
+
+.OrderSummary {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.OrderSummary h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.OrderSummary p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.order-free-shipping {
+    color: green;
+}
+
+.order-discounted-amount {
+    color: red;
+}

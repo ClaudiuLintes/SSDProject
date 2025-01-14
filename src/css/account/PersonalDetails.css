@@ -1,0 +1,55 @@
+/* PersonalDetails.css */
+
+.personalDetails-container {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personalDetails-container h1 {
+    margin-bottom: 20px;
+    color: #ff5722;
+}
+
+.personalDetails-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.personalDetails-form-group {
+    margin-bottom: 15px;
+}
+
+.personalDetails-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff5722;
+}
+
+.personalDetails-form-group input[type="text"], 
+.personalDetails-form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.personalDetails-submit-button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.personalDetails-submit-button:hover {
+    background-color: #e64a19;
+}
